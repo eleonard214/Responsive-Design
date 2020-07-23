@@ -1,0 +1,110 @@
+html{
+    font-size: 62.5%;  
+}
+header {
+    background: lightgreen;
+    }
+h1 {
+    color: purple;
+    font-size: 6rem;
+}    
+h1:hover {
+    font-size: 8rem;
+    background: purple;
+    color: rgb(209, 139, 9);
+}
+nav {
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.home {
+    border: .5rem solid #e06f0b;
+}
+
+.about {
+    border: .5rem solid #e06f0b;
+}
+
+.contact {
+    border: .5rem solid #e06f0b;
+}
+
+.projects {
+    border: .5rem solid #e06f0b;
+}
+
+.container1 {
+    display:flex;
+}
+.toptext {
+padding: 2rem;
+}
+h2 {
+    font-size: 3rem;
+    }
+
+#myprojects {
+    font-size: 3rem;  
+}
+.toptext p {
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+
+.gallery {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    color: green;
+    font-size: 2rem;
+}
+footer {
+    font-size: 2rem;
+    display:flex;
+    background: lightgreen;
+    color:purple;
+    flex-direction: column;
+}
+
+.container {
+    justify-content: center;
+}
+button:hover {
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+
+@media (max-width: width 800px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-item: center;
+        
+    }
+ 
+    img {
+        width:100%;
+    }
+}
+@media screen (max-width: 500px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-item: center;
+        }
+.home {
+    width:80%;
+    margin:20%
+}
